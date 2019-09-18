@@ -1,5 +1,5 @@
 <?php
-   $db = pg_Connect("dbname=sampledb user=postgres password=password");
+   $db = pg_Connect("dbname=postgres user=postgres password=postgres");
    if(!$db) {
       echo "Error : Unable to open database\n";
    } else {
