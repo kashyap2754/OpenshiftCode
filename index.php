@@ -1,5 +1,5 @@
 <?php
-   $db = pg_Connect("host=172.30.45.74:5432 dbname=postgres user=postgres password=postgres");
+   $db = pg_Connect("host=172.30.45.74 port=5432 dbname=postgres user=postgres password=postgres");
    if(!$db) {
       echo "Error : Unable to open database\n";
    } else {
